@@ -1,0 +1,23 @@
+#忽略DerivedData文件夹
+DerivedData/
+#忽略.xcodeproj/下除了project的文件
+
+SDKSample.xcodeproj/xcuserdata/
+#IOSTempleteResourcesProject/IOSTempleteResources/IOSTempleteResources.xcodeproj/xcuserdata/
+*~
+.DS_Store
+# Exclude the build directory
+build/*
+# Exclude temp nibs and swap files
+#*~.nib
+*.swp
+# Exclude OS X folder attributes
+.DS_Store
+# Exclude user-friendliness XCode 3 and 4 files
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
