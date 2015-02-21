@@ -40,8 +40,8 @@
     [self.window makeKeyAndVisible];
     
     //向微信注册
-//    [WXApi registerApp:@"wxd930ea5d5a258f4f" withDescription:@"demo 2.0"];
-    [WXApi registerApp:@"wx5efd4a9674eccd88" withDescription:@"demo 2.0"];
+    [WXApi registerApp:@"wxd930ea5d5a258f4f" withDescription:@"demo 2.0"];
+//    [WXApi registerApp:@"wx5efd4a9674eccd88" withDescription:@"demo 2.0"];
     
     return YES;
 }
